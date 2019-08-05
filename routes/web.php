@@ -13,6 +13,8 @@ Route::group(['prefix' => ADMIN, 'as' => ADMIN . '.', 'middleware'=>['auth', 'Ro
     Route::resource('users', 'UserController');
 });
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware'=>['auth', 'Role:10']], function () {
+    Route::get('/', 'DashboardController@index')->name('dash');
+    Route::resource('users', 'UserController');
 });
+

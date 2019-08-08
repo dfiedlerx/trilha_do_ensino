@@ -14,7 +14,7 @@ class backgrounds extends Seeder
     {
         $data = [];
 
-        for ($i = 1; $i <= 15 ; $i++) {
+        for ($i = 1; $i < 15 ; $i++) {
             array_push($data, [
                 'name'     => $i . '.jpg',
             ]);

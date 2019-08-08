@@ -1,9 +1,10 @@
 <?php
 
 use App\User;
+use Faker\Factory;
 use Illuminate\Database\Seeder;
 
-class users extends Seeder
+class Users extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,9 +14,9 @@ class users extends Seeder
     public function run()
     {
         $faker = Faker\Factory::create();
-        
+
         $data = [];
-        
+
         for ($i = 1; $i <= 1 ; $i++) {
             array_push($data, [
                 'name'     => 'hadji kouceyla',
@@ -25,7 +26,7 @@ class users extends Seeder
                 'bio'      => $faker->realText(),
             ]);
         }
-        
+
         User::insert($data);
     }
 }

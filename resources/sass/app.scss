@@ -4,6 +4,10 @@
 @import 'spec/index';
 @import 'vendor/index';
 
+//Custom SCSS
+@import 'custom/index';
+
+
 #loader {
     transition: all 0.3s ease-in-out;
     opacity: 1;

@@ -1,3 +1,7 @@
+<?php
+use App\Models\Background;
+?>
+
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>
@@ -18,11 +22,14 @@
     @include('admin.partials.spinner')
 
     <div class="peers ai-s fxw-nw h-100vh">
-      <div class="d-n@sm- peer peer-greed h-100 pos-r bgr-n bgpX-c bgpY-c bgsz-cv" style='background-image: url("/images/bg.jpg")'>
+      <div class="d-n@sm- peer peer-greed h-100 pos-r bgr-n bgpX-c bgpY-c bgsz-cv" style='background-image: url("{{Background::getRandomBackgroundUrl()}}")'>
         <div class="pos-a centerXY">
           <div class="bgc-white bdrs-50p pos-r" style='width: 120px; height: 120px;'>
             <img class="pos-a centerXY" src="/images/logo.png" alt="">
           </div>
+        </div>
+        <div class="bg-envie-o-seu-tambem" id="envieSeuBg">
+            Envie seu cantinho de estudos também!
         </div>
       </div>
       <div class="col-12 col-md-4 peer pX-40 pY-80 h-100 bgc-white scrollable pos-r" style='min-width: 320px;'>

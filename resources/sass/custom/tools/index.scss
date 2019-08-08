@@ -1,13 +1,1 @@
-.father-vertical-align {
-
-  position: relative;
-
-}
-
-.item-vertical-absolute-align {
-
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-
-}
+@import 'position';

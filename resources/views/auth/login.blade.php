@@ -1,7 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="item-vertical-absolute-align">
+    <div class="item-full-absolute-align login-content">
+
+        <div class="login-img-logo-content text-center">
+            <img class="login-img-logo margin-center" src="/images/logo.png" alt="">
+            <div class="clearfix"></div>
+        </div>
         <h4 class="fw-300 c-grey-900 mB-40">Login</h4>
         <form class="form-horizontal" method="POST" action="{{ route('login') }}">
             {{ csrf_field() }}

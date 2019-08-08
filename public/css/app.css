@@ -80651,6 +80651,19 @@ table.dataTable.no-footer {
   border: 1px solid #BBB;
 }
 
+.login-img-logo-content {
+  min-height: 1px;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.login-content {
+  margin: -5vh 0;
+}
+
 .father-vertical-align {
   position: relative;
 }
@@ -80660,6 +80673,18 @@ table.dataTable.no-footer {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.item-full-absolute-align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.margin-center {
+  margin: auto;
 }
 
 #loader {

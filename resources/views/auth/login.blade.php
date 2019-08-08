@@ -7,12 +7,12 @@
             <img class="margin-center login-logo" src="/images/logo.png" alt="">
             <div class="clearfix"></div>
         </div>
-        <h4 class="fw-300 c-grey-900 text-center">Entrar</h4>
+        <h4 class="fw-300 c-grey-900 text-center mB-20">Entrar</h4>
         <form class="form-horizontal" method="POST" action="{{ route('login') }}">
             {{ csrf_field() }}
 
             <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                <label for="email" class="text-normal text-dark">Email</label>
+                <label for="email" class="text-normal text-dark">Email ou nome de usuário</label>
                 <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
 
                 @if ($errors->has('email'))
@@ -23,7 +23,7 @@
             </div>
 
             <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                <label for="password" class="text-normal text-dark">Password</label>
+                <label for="password" class="text-normal text-dark">Senha</label>
                 <input id="password" type="password" class="form-control" name="password" required>
 
                 @if ($errors->has('password'))

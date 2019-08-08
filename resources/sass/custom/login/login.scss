@@ -2,13 +2,24 @@
 
   position: absolute;
   font-size: 11px;
-  background-color: #EEE;
-  border-width: 1px 1px 0 1px;;
-  border-style: solid;
-  border-color: #999;
-  padding: 3px;
+  background-color: rgba(0,0,0,0.4);
   bottom: 0;
-  left: 0.10%;
+  left: 50%;
+  transform: translateX(-50%);
   cursor: pointer;
+  padding: 5px 8px;
+  color: #FFF;
+
+}
+
+.bg-envie-o-seu-tambem:hover {
+
+  background-color: rgba(0,0,0,0.75);
+
+}
+
+.checkbox label::before {
+
+  border: 1px solid #AAA;
 
 }

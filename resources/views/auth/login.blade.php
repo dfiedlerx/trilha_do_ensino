@@ -34,7 +34,7 @@
                     <div class="checkbox checkbox-circle checkbox-info peers ai-c">
                         <input type="checkbox" id="remember" name="remember" class="peer" {{ old('remember') ? 'checked' : '' }}>
                         <label for="remember" class=" peers peer-greed js-sb ai-c">
-                            <span class="peer peer-greed">Remember Me</span>
+                            <span class="peer peer-greed">Lembrar de mim</span>
                         </label>
                     </div>
                 </div>

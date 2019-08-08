@@ -80648,7 +80648,18 @@ table.dataTable.no-footer {
 }
 
 .checkbox label::before {
-  border: 1px solid #AAA;
+  border: 1px solid #BBB;
+}
+
+.father-vertical-align {
+  position: relative;
+}
+
+.item-vertical-absolute-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 #loader {

@@ -3,11 +3,11 @@
 @section('content')
     <div class="item-full-absolute-align login-content">
 
-        <div class="login-img-logo-content text-center">
-            <img class="login-img-logo margin-center" src="/images/logo.png" alt="">
+        <div class="login-logo-content text-center">
+            <img class="margin-center login-logo" src="/images/logo.png" alt="">
             <div class="clearfix"></div>
         </div>
-        <h4 class="fw-300 c-grey-900 mB-40">Login</h4>
+        <h4 class="fw-300 c-grey-900 text-center">Entrar</h4>
         <form class="form-horizontal" method="POST" action="{{ route('login') }}">
             {{ csrf_field() }}
 
@@ -48,14 +48,16 @@
                     </div>
                 </div>
             </div>
-            <div class="peers ai-c jc-sb fxw-nw">
-                <div class="peer">
-                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                        Forgot Your Password?
-                    </a>
-                </div>
-                <div class="peer">
-                    <a href="/register" class="btn btn-link">Create new account</a>
+            <div class="peers ai-c jc-sb fxw-nw cointainer-fluid text-center">
+                <div class="row w-100 margin-0">
+                    <div class="peer col-12 col-xs-12 col-md-6 padding-0">
+                        <a class="btn btn-link" href="{{ route('password.request') }}">
+                            Esqueceu sua senha?
+                        </a>
+                    </div>
+                    <div class="peer col-12 col-xs-12 col-md-6 padding-0">
+                        <a href="/register" class="btn btn-link">Fazer inscrição</a>
+                    </div>
                 </div>
             </div>
         </form>

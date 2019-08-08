@@ -80656,12 +80656,19 @@ table.dataTable.no-footer {
   width: 100%;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .login-content {
   margin: -5vh 0;
+  width: 100%;
+  padding: 0 8%;
+}
+
+.login-logo-content {
+  margin-bottom: 8vh;
+}
+
+.login-logo {
+  max-width: 100%;
+  max-height: 70px;
 }
 
 .father-vertical-align {
@@ -80685,6 +80692,18 @@ table.dataTable.no-footer {
 
 .margin-center {
   margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding-0 {
+  padding: 0 !important;
+}
+
+.margin-0 {
+  margin: 0 !important;
 }
 
 #loader {

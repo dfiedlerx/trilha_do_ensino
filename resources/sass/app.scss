@@ -4,9 +4,6 @@
 @import 'spec/index';
 @import 'vendor/index';
 
-//Custom SCSS
-@import 'custom/index';
-
 
 #loader {
     transition: all 0.3s ease-in-out;
@@ -93,3 +90,6 @@ img {
 }
 
 .form-control-file{border: 1px solid #cbcbcb;}
+
+//Custom SCSS
+@import 'custom/index';

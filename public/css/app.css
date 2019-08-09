@@ -80630,82 +80630,6 @@ table.dataTable.no-footer {
   }
 }
 
-.bg-envie-o-seu-tambem {
-  position: absolute;
-  font-size: 11px;
-  background-color: rgba(0, 0, 0, 0.4);
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  cursor: pointer;
-  padding: 5px 8px;
-  color: #FFF;
-}
-
-.bg-envie-o-seu-tambem:hover {
-  background-color: rgba(0, 0, 0, 0.75);
-}
-
-.checkbox label::before {
-  border: 1px solid #BBB;
-}
-
-.login-img-logo-content {
-  min-height: 1px;
-  width: 100%;
-}
-
-.login-content {
-  margin: -5vh 0;
-  width: 100%;
-  padding: 0 8%;
-}
-
-.login-logo-content {
-  margin-bottom: 6vh;
-}
-
-.login-logo {
-  max-width: 100%;
-  max-height: 70px;
-}
-
-.father-vertical-align {
-  position: relative;
-}
-
-.item-vertical-absolute-align {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-.item-full-absolute-align {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-}
-
-.margin-center {
-  margin: auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.padding-0 {
-  padding: 0 !important;
-}
-
-.margin-0 {
-  margin: 0 !important;
-}
-
 #loader {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -80794,5 +80718,81 @@ img {
 
 .form-control-file {
   border: 1px solid #cbcbcb;
+}
+
+.bg-envie-o-seu-tambem {
+  position: absolute;
+  font-size: 11px;
+  background-color: rgba(0, 0, 0, 0.4);
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+  padding: 5px 8px;
+  color: #FFF;
+}
+
+.bg-envie-o-seu-tambem:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.checkbox label::before {
+  border: 1px solid #BBB;
+}
+
+.login-img-logo-content {
+  min-height: 1px;
+  width: 100%;
+}
+
+.login-content {
+  margin: -5vh 0;
+  width: 100%;
+  padding: 0 8%;
+}
+
+.login-logo-content {
+  margin-bottom: 6vh;
+}
+
+.login-logo {
+  max-width: 100%;
+  max-height: 70px;
+}
+
+.father-vertical-align {
+  position: relative;
+}
+
+.item-vertical-absolute-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.item-full-absolute-align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.margin-center {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding-0 {
+  padding: 0 !important;
+}
+
+.margin-0 {
+  margin: 0 !important;
 }
 

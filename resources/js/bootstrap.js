@@ -74,3 +74,5 @@ import './utils';
 
 import './sweetalert2';
 import './select2';
+
+import './custom';

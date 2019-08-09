@@ -20,6 +20,7 @@ use App\Models\Background;
 <body class="app">
 
     @include('admin.partials.spinner')
+    @include('admin.login.sendBackground')
 
     <div class="peers ai-s fxw-nw h-100vh">
       <div class="d-n@sm- peer peer-greed h-100 pos-r bgr-n bgpX-c bgpY-c bgsz-cv" style='background-image: url("{{Background::getRandomBackgroundUrl()}}")'>
@@ -31,6 +32,9 @@ use App\Models\Background;
         @yield('content')
       </div>
     </div>
-  
+
+    <script src="{{ mix('/js/app.js') }}"></script>
+    @yield('js')
+
 </body>
 </html>

@@ -21,6 +21,12 @@
 
 }
 
+.item-fixed {
+
+  position: fixed;
+
+}
+
 .margin-center {
 
   margin: auto;
@@ -30,5 +36,28 @@
 .text-center {
 
   text-align: center;
+
+}
+
+.text-right {
+
+  text-align: right;
+
+}
+
+.hidden {
+
+  display: none;
+
+}
+
+//Gera classes z-index até um total de 10 Exemplo: z-index-7
+@for $i from 1 through 10 {
+
+  .z-index-#{$i} {
+
+    z-index: #{$i};
+
+  }
 
 }

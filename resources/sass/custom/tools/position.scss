@@ -7,8 +7,16 @@
 .item-vertical-absolute-align {
 
   position: absolute;
-  top: 50%;
+  left: 50%;
   transform: translateY(-50%);
+
+}
+
+.item-horizontal-absolute-align {
+
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
 
 }
 

@@ -1,0 +1,28 @@
+.enviar-background-box {
+
+  min-height: 55px;
+  width: 40%;
+  background-color: #EEE;
+  border-radius: 4px;
+
+}
+
+.bg-envie-o-seu-tambem {
+
+  position: absolute;
+  font-size: 11px;
+  background-color: rgba(0,0,0,0.4);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  padding: 5px 8px;
+  color: #FFF;
+
+}
+
+.bg-envie-o-seu-tambem:hover {
+
+  background-color: rgba(0,0,0,0.75);
+
+}
